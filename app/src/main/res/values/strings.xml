@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Belajar Fiqih</string>
+
+    <string name="bt_kembali">Kembali</string>
+    <string name="bt_next">Selanjutnya</string>
+    <string name="bt_previous">Sebelumnya</string>
+    <string name="bgsound">bgsound1</string>
+    <string name="title_text_anggota">Nama Anggota Badan</string>
+    <string name="isi_kisah">te
+
+        aster</string>
+    <string name="anggota_tubuh_kita">Anggota Tubuh Kita</string>
+    <string name="kisah_nabi_dan_rasul">Kisah Nabi dan Rasul</string>
+
+    <!-- MENU BERMAIN -->
+
+
+    <string name="answer_correct">Benar ^_^</string>
+    <!-- Question answered incorrectly -->
+    <string name="answer_incorrect">Salah T_T</string>
+
+    <string name="question_reading_exception">A problem was encountered while loading the questions, and has been logged. Please send the developer a bug report including log output.</string>
+
+
+    <plurals name="question_reading_parse_fail_number">
+        <item quantity="one">1 question could not be parsed, and has been logged. Please send the developer a bug report including log output.</item>
+        <item quantity="other">%1$d questions could not be parsed, and have been logged. Please send the developer a bug report including log output.</item>
+    </plurals>
+
+    <string name="quiz_end_header">Nilai Kamu</string>
+    <!-- Number of correct answers header -->
+    <string name="correct_answers_header">Benar</string>
+    <!-- Number of incorrect answers header -->
+    <string name="incorrect_answers_header">Salah</string>
+    <!-- End of quiz accept button -->
+    <string name="quiz_end_accept_button">Menu Utama</string>
+    <string name="bonus">Bonus</string>
+    <string name="kembali">Kembali</string>
+</resources>

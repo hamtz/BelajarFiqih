@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".BermainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_kembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="bt_kembali"
+            android:background="#FFFFFF"
+            android:text="@string/bt_kembali" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/teksmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_kembali"
+        android:gravity="center"
+        android:padding="6dp">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu_bermain"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pemisah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/teksmenu"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gambarkarakter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/teksmenu"
+        android:layout_toRightOf="@id/submenu"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/muslimpng" />
+
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/submenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/pemisah"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/btn_green"
+                android:onClick="bt_kuisfiqih"
+                android:text="Kuis Fiqih" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/btn_green"
+                android:onClick="bt_kuisnabi"
+                android:text="kuis Nabi dan Rasul" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/btn_green"
+                android:onClick="bt_kuisiman"
+                android:text="Kuis Iman"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/btn_green"
+                android:onClick="bt_kuiskenabian"
+                android:text="Kuis kenabian" />
+
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_fiqih1">
+        <item>Belajar Fiqih 1</item>
+        <item>Makanan Halal</item>
+        <item>Makanan Haram</item>
+        <item>Minuman Halal</item>
+        <item>Minuman Haram</item>
+        <item>Binatang Halal</item>
+        <item>Binatang Haram</item>
+        <item>Jual Beli</item>
+    </string-array>
+
+    <string-array name="list_fiqih2">
+        <item>Belajar Fiqih 2</item>
+        <item>Kurban</item>
+        <item>Haji</item>
+        <item>Haid</item>
+        <item>Khitan</item>
+    </string-array>
+
+    <string-array name="list_fiqih3">
+        <item>Belajar Fiqih 3</item>
+        <item>Sholat Jumat</item>
+
+    </string-array>
+
+    <string-array name="list_nabi">
+        <item>Kisah Nabi dan Rasul</item>
+        <item>Nabi Adam A.S.</item>
+        <item>Nabi Idris A.S.</item>
+        <item>Nabi Nuh A.S.</item>
+        <item>Nabi Hud A.S.</item>
+        <item>Nabi Sholeh A.S.</item>
+        <item>Nabi Ibrahim A.S.</item>
+        <item>Nabi Luth A.S.</item>
+        <item>Nabi Ismail A.S.</item>
+        <item>Nabi Ishaq A.S.</item>
+        <item>Nabi Ya"'"qub A.S.</item>
+        <item>Nabi Yusuf A.S.</item>
+        <item>Nabi Syu"'"aib A.S.</item>
+        <item>Nabi Ayyub A.S.</item>
+        <item>Nabi Zulkifli A.S.</item>
+        <item>Nabi Musa A.S. dan Harun A.S.</item>
+        <item>Nabi Daud A.S.</item>
+        <item>Nabi Sulaiman A.S.</item>
+        <item>Nabi Ilyas A.S.</item>
+        <item>Nabi Ilyasa A.S.</item>
+        <item>Nabi Yunus A.S.</item>
+        <item>Nabi Zakariya A.S.</item>
+        <item>Nabi Yahya A.S.</item>
+        <item>Nabi Isa A.S.</item>
+        <item>Nabi Muhammad S.A.W.</item>
+
+    </string-array>
+</resources>

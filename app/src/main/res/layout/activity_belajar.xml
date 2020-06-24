@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".BelajarActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layout_kembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="bt_kembali"
+            android:background="#FFFFFF"
+            android:text="@string/bt_kembali" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/teksmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_kembali"
+        android:gravity="center"
+        android:padding="6dp">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu_belajar"
+           />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/gambarkarakter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/teksmenu"
+        android:layout_toLeftOf="@id/submenu"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/muslimahpng" />
+
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/submenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_below="@id/teksmenu">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:padding="6dp">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/btn_yellow"
+                android:onClick="bt_ajar_kisah"
+                android:text="@string/kisah_nabi_dan_rasul" />
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/btn_yellow"
+                android:onClick="bt_ajar_anggota"
+                android:text="@string/anggota_tubuh_kita" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/btn_yellow"
+                android:entries="@array/list_fiqih1"
+                android:textAlignment="center">
+
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/btn_yellow"
+                android:entries="@array/list_fiqih2"
+                android:textAlignment="center">
+
+            </Spinner>
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@drawable/btn_yellow"
+                android:entries="@array/list_fiqih3"
+                android:textAlignment="center">
+
+            </Spinner>
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</RelativeLayout>

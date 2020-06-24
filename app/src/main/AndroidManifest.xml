@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myapps.ayoobelajarfiqih">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_apk"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_apk"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.myapps.ayoobelajarfiqih.SplashActivity"
+            android:theme="@style/SplashNoBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myapps.ayoobelajarfiqih.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashNoBar" />
+        <activity
+            android:name="com.myapps.ayoobelajarfiqih.MenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashNoBar" />
+        <activity
+            android:name="com.myapps.ayoobelajarfiqih.BelajarActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashNoBar" />
+        <activity
+            android:name="com.myapps.ayoobelajarfiqih.BermainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashNoBar" />
+        <activity
+            android:name="com.myapps.ayoobelajarfiqih.TentangActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashNoBar" />
+        <activity
+            android:name="com.myapps.ayoobelajarfiqih.Belajar_Kisah"
+            android:label="Kisah Nabi dan Rasul"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BelajarActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/fiqihbar" />
+        <activity
+            android:name="com.myapps.ayoobelajarfiqih.Belajar_Anggota"
+            android:label="Nama Anggota Badan"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BelajarActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.myapps.ayoobelajarfiqih.Data_Nabi"
+            android:label="Kisah Nabi"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.Belajar_Kisah"/>
+
+
+
+
+        <activity
+            android:name="com.myapps.ayoobelajarfiqih.Belajar_Makanhalal"
+            android:label="Makanan Halal"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BelajarActivity"></activity>
+        <activity
+            android:name="com.myapps.ayoobelajarfiqih.Belajar_Kurban"
+            android:label="Belajar Kurban"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BelajarActivity"></activity>
+        <activity
+            android:name="com.myapps.ayoobelajarfiqih.Belajar_Jualbeli"
+            android:label="Jual dan Beli"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BelajarActivity"></activity>
+        <activity
+            android:name="com.myapps.ayoobelajarfiqih.Belajar_Makanharam"
+            android:label="Makanan Haram"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BelajarActivity"></activity>
+        <activity
+            android:name="com.myapps.ayoobelajarfiqih.Belajar_Minumhalal"
+            android:label="Minuman Halal"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BelajarActivity"></activity>
+        <activity
+            android:name="com.myapps.ayoobelajarfiqih.Belajar_Binatanghalal"
+            android:label="Binatang Halal"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BelajarActivity"></activity>
+        <activity
+            android:name="com.myapps.ayoobelajarfiqih.Belajar_Binatangharam"
+            android:label="Binatang Haram"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BelajarActivity"></activity>
+        <activity
+            android:name="com.myapps.ayoobelajarfiqih.Belajar_Minumharam"
+            android:label="Mimuman Haram"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BelajarActivity"></activity>
+        <activity android:name="com.myapps.ayoobelajarfiqih.Belajar_Haji"
+            android:label="Haji"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BelajarActivity"/>
+        <activity android:name="com.myapps.ayoobelajarfiqih.Belajar_Haid"
+            android:label="Haid"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BelajarActivity"/>
+        <activity android:name="com.myapps.ayoobelajarfiqih.Belajar_Khitan"
+            android:label="Khitan"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BelajarActivity"/>
+        <activity android:name="com.myapps.ayoobelajarfiqih.Belajar_Jumat"
+            android:label="Sholat Jumat"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BelajarActivity"/>
+
+
+
+
+        <activity android:name="com.myapps.ayoobelajarfiqih.Quis_Fiqih1"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BermainActivity"
+            android:label="Kuis Fiqih"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.myapps.ayoobelajarfiqih.QuizEndActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.myapps.ayoobelajarfiqih.Quis_Fiqih2"
+            android:label="Kuis Nabi dan Rasul"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BermainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.myapps.ayoobelajarfiqih.Quis_Fiqih3"
+            android:label="Kuis Iman"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BermainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.myapps.ayoobelajarfiqih.Quis_Fiqih4"
+            android:label="Kuis Kenabian"
+            android:parentActivityName="com.myapps.ayoobelajarfiqih.BermainActivity"
+            android:screenOrientation="portrait"/>
+
+
+
+    </application>
+
+</manifest>

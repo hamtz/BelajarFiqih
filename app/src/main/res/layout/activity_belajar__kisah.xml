@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".Belajar_Kisah">
+
+    <LinearLayout
+        android:id="@+id/teksmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="6dp">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/menu_belajar" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gambarkarakter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/teksmenu"
+        android:layout_toEndOf="@id/list_view_item"
+        android:layout_toRightOf="@id/list_view_item"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/muslimahpng" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list_view_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/teksmenu"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listview1"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            >
+
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>
